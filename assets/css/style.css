@@ -339,6 +339,26 @@ section .container {
 }
 
 /*--------------------------------------------------------------
+# Button Download
+--------------------------------------------------------------*/
+.btn{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--first-color-lighten);
+  padding: .75rem 1rem;
+  border-radius: .25rem;
+  transition: .3s;
+}
+
+.btn:hover{
+  background-color: var(--first-color-dark);
+}
+
+.btn-light{
+  background-color: var(--first-color-light);
+}
+
+/*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about-me .content h3 {
